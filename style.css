@@ -1,0 +1,52 @@
+@import "./ind_colum1.css";
+
+:root{
+    --cafe: #1f140f;
+    --gray: #a5a5a5;
+    --white: white;
+    --orange: #e45826;
+    --blue: #003399;
+    --green: #0cc665;
+    --dark-yellow: #ffcc00;
+    --rojo: #bb0b24;
+
+
+    --fontBase: 'Poppins', sans-serif;
+    --fontForm: 'Antonio', sans-serif;
+
+}
+
+
+
+*{  margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: darkblue;
+}
+
+
+.container__ingreso{
+    display: flex;    
+    background: darkblue;
+    
+}
+
+
+
+
+
+.container__img{
+    width: 50%;
+    height: 100vh;
+    background: red;
+}
+
+.container__ingreso{
+    width: 50%;
+    height: 100%;
+    background: royalblue;
+    font-family: 'Poppins', sans-serif;
+}
