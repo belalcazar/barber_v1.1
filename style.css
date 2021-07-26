@@ -1,5 +1,10 @@
 @import "./ind_colum1.css";
 
+@font-face {
+    font-family: streetwear;
+    src: url(assets/fonts/Streetwear.otf);
+}
+
 :root{
     --cafe: #1f140f;
     --gray: #a5a5a5;
@@ -37,9 +42,8 @@ body{
 
 
 
-
 .container__img{
-    width: 50%;
+    width: 100vh;
     height: 100vh;
     background: red;
 }
@@ -48,5 +52,6 @@ body{
     width: 50%;
     height: 100%;
     background: royalblue;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'streetwear', sans-serif;
 }
+
