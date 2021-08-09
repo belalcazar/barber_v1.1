@@ -18,6 +18,7 @@
 
     --fontBase: 'Poppins', sans-serif;
     --fontForm: 'Antonio', sans-serif;
+    
 
 }
 
@@ -30,28 +31,98 @@
 
 body{
     background: darkblue;
-}
-
-
-.container__ingreso{
-    display: flex;    
-    background: darkblue;
+    background-image: url(assets/bg_index.jpg);
+    background-size: cover;
     
 }
 
-
-
-
-.container__img{
-    width: 100vh;
+.content{
     height: 100vh;
-    background: red;
+    display: flex;    
+    border: 1px solid red;
+    background-image: url(assets/brush.png) , cover; 
+
 }
 
-.container__ingreso{
+
+.brush img{
+    
+    
+    height: 600px;
+    position: relative;
+    left: -100px;
+}
+
+.colum_image img{
+    background: no-repeat;
+    height: 100vh ;   
+    
+    
+}
+
+.colum_login .logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.colum_login .logo img{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin: 50px 0px;
+}
+
+.colum_login{
+    display: flex;
+    flex-direction: column;
+    
     width: 50%;
-    height: 100%;
-    background: royalblue;
-    font-family: 'streetwear', sans-serif;
+
 }
 
+.logo{
+    
+}
+
+.slogan{
+    display: flex;    
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid red;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.barbero img{
+    width: 200px;
+}
+
+.caja-button{
+    background: crimson;
+}
+
+.slogan span{
+    font: var(--fontForm);
+    text-transform: uppercase;
+    text-align: right;
+    color: #ffffff;
+    
+    font-size: 40px;
+    line-height: 40px;
+    
+}
+
+.caja-button{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan .img_dibujo{
+    border: 1px solid red;
+    display: flex;
+    position:absolute ;
+    left: 490px;
+    top: 5px;
+}
